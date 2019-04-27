@@ -1,0 +1,32 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+$font-stack : "Ubuntu","Noto Serif TC", "sans-serif";
+$primary-color: #363434;
+
+body
+{
+    //color: $primary-color;
+    // font: 100% $font-stack 18px;
+    color:#363434;
+    font-family: "Ubuntu","Noto Serif TC", "sans-serif";
+    font-size:18px;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover !important;
+    background-attachment:fixed !important;
+    background-repeat: no-repeat;
+    // width: 100vw;
+    // height: 100vh;
+}
+
+
+a:hover
+{
+    text-decoration: none;
+}
+
+#div_content
+{
+    padding-top: 180px;
+}
